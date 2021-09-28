@@ -7,7 +7,7 @@ body {
     min-height: 200px;
     padding: 2rem 1rem;
     margin: auto;
-    background-color: #064e3b;
+    background-color: #0a4872;
   }
   .heading,
   p {
@@ -17,7 +17,7 @@ body {
     margin: 1rem 0;
   }
   label {
-    color: #a7f3d0;
+    color: #cddfe9;
   }
   input {
     display: block;
@@ -38,8 +38,8 @@ body {
     font-size: 0.9rem;
     letter-spacing: 0.5px;
     border-style: none;
-    color: #064e3b;
-    background-color: #a7f3d0;
+    color: #063d4e;
+    background-color: #96cbe4;
   }
   table {
     margin-top: 2rem;
@@ -52,7 +52,7 @@ body {
   table,
   th,
   td {
-    border: 1px solid #064e3b;
+    border: 1px solid #06374e;
     padding: 1rem;
     background-color: #fff;
     border-collapse: collapse;
