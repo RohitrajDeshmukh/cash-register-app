@@ -9,7 +9,7 @@ const noOfNotes = document.querySelectorAll(".no-of-notes");
 
 const availbleNotes = [2000, 500, 100, 20, 10, 5, 1];
 
-nextButton.addEventListener("click", () => {
+nextButton.addEventListener("click",function next() {
 
     if (billAmount.value > 0) {
         message.style.display = "none";
@@ -17,7 +17,7 @@ nextButton.addEventListener("click", () => {
         nextButton.style.display ="none";
 
     } else {
-        errorMsg("Please enter valid number");
+        errorMessage("Please enter valid number");
     }
 });
 
